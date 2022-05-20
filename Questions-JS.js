@@ -29,11 +29,11 @@ const userData = [
 // Each object should have the id of the user and the amount of favorite foods they have.
 // example: [{id: '111', favoriteFoods: 2}]
 
-const sumOfFavoriteFoods = userData.map((data) => {
+const getFavoriteFoods = userData.map((data) => {
   return { id: data.id, favoriteFoods: data.favorites["food"].length };
 });
 
-console.log(sumOfFavoriteFoods);
+console.log(getFavoriteFoods);
 
 ////////////////////
 // EXTRA CREDIT:
