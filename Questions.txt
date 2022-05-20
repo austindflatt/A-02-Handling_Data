@@ -1,7 +1,11 @@
 Explain what the ".map" properties of arrays does.
+It creates a new array 
 
 Explain what the ".reduce" properties of arrays does.
+It runs a callback function on each element of the array and returns a single value
 
 How is ".map" different from reduce?
+.map creates anew array, and .reduce takes all elements in array and makes them a single value thats returned
 
 What are "switch" statements?
+A type of control that allows the value of a variable or expression to change 
